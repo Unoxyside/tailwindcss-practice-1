@@ -622,8 +622,6 @@ video {
 }
 
 .image-style {
-  height: 100%;
-  width: 100%;
   background-size: cover;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -669,6 +667,11 @@ video {
   --tw-scale-x: 1.25;
   --tw-scale-y: 1.25;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.full-image {
+  height: 100%;
+  width: 100%;
 }
 
 .mx-auto {
@@ -828,46 +831,6 @@ video {
 
 .bg-gradient-to-tr {
   background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\/dist\/grid\/mountain1\.jpg\'\)\] {
-  background-image: url('/dist/grid/mountain1.jpg');
-}
-
-.bg-\[url\(\'\/dist\/grid\/mountain2\.jpg\'\)\] {
-  background-image: url('/dist/grid/mountain2.jpg');
-}
-
-.bg-\[url\(\'\/dist\/grid\/mountain3\.jpg\'\)\] {
-  background-image: url('/dist/grid/mountain3.jpg');
-}
-
-.bg-\[url\(\'\/dist\/grid\/mountain4\.jpg\'\)\] {
-  background-image: url('/dist/grid/mountain4.jpg');
-}
-
-.bg-\[url\(\'\/dist\/grid\/mountain5\.jpg\'\)\] {
-  background-image: url('/dist/grid/mountain5.jpg');
-}
-
-.bg-\[url\(\'\/dist\/grid\/mountain6\.jpg\'\)\] {
-  background-image: url('/dist/grid/mountain6.jpg');
-}
-
-.bg-\[url\(\'\/dist\/grid\/mountain7\.jpg\'\)\] {
-  background-image: url('/dist/grid/mountain7.jpg');
-}
-
-.bg-\[url\(\'\/dist\/grid\/mountain8\.jpg\'\)\] {
-  background-image: url('/dist/grid/mountain8.jpg');
-}
-
-.bg-\[url\(\'\/dist\/grid\/mountain9\.jpg\'\)\] {
-  background-image: url('/dist/grid/mountain9.jpg');
-}
-
-.bg-\[url\(\'\/dist\/grid\/mountain10\.jpg\'\)\] {
-  background-image: url('/dist/grid/mountain10.jpg');
 }
 
 .from-purple-700 {
